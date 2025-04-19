@@ -1,4 +1,4 @@
-# Sanity Plugin Inline SVG Input [![npm version](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input.svg)](https://badge.fury.io/js/@focus-reactive%2Fsanity-plugin-inline-svg-input) [![Sanity Exchange](https://img.shields.io/badge/sanity-exchange-green)](https://www.sanity.io/plugins/sanity-plugin-inline-svg-input)
+# Sanity Plugin Inline SVG Input [![npm version](https://badge.fury.io/js/@starefossen%2Fsanity-plugin-inline-svg-input.svg)](https://badge.fury.io/js/@starefossen%2Fsanity-plugin-inline-svg-input) [![Sanity Exchange](https://img.shields.io/badge/sanity-exchange-green)](https://www.sanity.io/plugins/sanity-plugin-inline-svg-input)
 
 **Sanity Studio v3** plugin to upload and preview inline SVGs.
 
@@ -7,20 +7,20 @@
 - [SVG preview in arrays](#within-arrays)
 - [Customizable preview component](#custom-preview-component)
 
-![preview](https://raw.githubusercontent.com/focusreactive/sanity-plugin-inline-svg-input/main/docs/preview.gif)
+![preview](https://raw.githubusercontent.com/starefossen/sanity-plugin-inline-svg-input/main/docs/preview.gif)
 
 ## Installation
 
 ```sh
-npm install @focus-reactive/sanity-plugin-inline-svg-input
+npm install @starefossen/sanity-plugin-inline-svg-input
 ```
 
 ```sh
-yarn add @focus-reactive/sanity-plugin-inline-svg-input
+yarn add @starefossen/sanity-plugin-inline-svg-input
 ```
 
 ```sh
-pnpm add @focus-reactive/sanity-plugin-inline-svg-input
+pnpm add @starefossen/sanity-plugin-inline-svg-input
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ pnpm add @focus-reactive/sanity-plugin-inline-svg-input
 
 ```ts
 import { defineConfig } from 'sanity'
-import { inlineSvgInput } from '@focus-reactive/sanity-plugin-inline-svg-input'
+import { inlineSvgInput } from '@starefossen/sanity-plugin-inline-svg-input'
 
 export default defineConfig({
   // ...
@@ -64,7 +64,7 @@ The sections below describe how to preview your SVG within arrays, objects or yo
 Sanity offers a convenient way to preview arrays out of the box, but it only allows the use of the `image` type in `media`.
 To provide same functionality for SVGs, we provide a ready-to-use preview component that mimics the default array preview.
 
-![preview](https://raw.githubusercontent.com/focusreactive/sanity-plugin-inline-svg-input/main/docs/preview-list.jpg)
+![preview](https://raw.githubusercontent.com/starefossen/sanity-plugin-inline-svg-input/main/docs/preview-list.jpg)
 
 To preview your SVG in arrays, use the `InlineSvgPreviewItem` component.\
 It accepts the following props:
@@ -79,7 +79,7 @@ only what you need is to replace default preview component with `InlineSvgPrevie
 
 ```tsx
 import { defineType } from 'sanity'
-import { InlineSvgPreviewItem } from '@focus-reactive/sanity-plugin-inline-svg-input'
+import { InlineSvgPreviewItem } from '@starefossen/sanity-plugin-inline-svg-input'
 
 const IconsListItem = defineType({
   type: 'object',
@@ -130,7 +130,7 @@ It accepts the following props:
 - `value` [string] - inline SVG
 
 ```tsx
-import { InlineSvgPreviewComponent } from '@focus-reactive/sanity-plugin-inline-svg-input'
+import { InlineSvgPreviewComponent } from '@starefossen/sanity-plugin-inline-svg-input'
 
 export const PreviewComponent = ({ value }) => {
   return (
@@ -147,7 +147,7 @@ To customize the preview component, you can either:
 - Extend default styles with `styled-components`
 
 ```tsx
-import { InlineSvgPreviewComponent } from '@focus-reactive/sanity-plugin-inline-svg-input'
+import { InlineSvgPreviewComponent } from '@starefossen/sanity-plugin-inline-svg-input'
 import styled from 'styled-components'
 
 const StyledInlineSvg = styled(InlineSvgPreviewComponent)`
@@ -198,7 +198,7 @@ This project was created at **FocusReactive** - the [Sanity Partner Agency](http
 
 If you're looking for expertise in headless CMS, NextJS, or eCommerce, get in touch with **FocusReactive** today. Visit our website at [focusreactive.com](https://focusreactive.com/) to learn more about how we can help you accelerate your business growth.
 
-[![FocusReactive](https://raw.githubusercontent.com/focusreactive/sanity-plugin-inline-svg-input/main/docs/FR-logo-long.png)](https://focusreactive.com/sanity-expert-agency/)
+[![FocusReactive](https://raw.githubusercontent.com/starefossen/sanity-plugin-inline-svg-input/main/docs/FR-logo-long.png)](https://focusreactive.com/sanity-expert-agency/)
 ---
 
 _This project is licensed under the MIT License. © 2023 FocusReactive._
