@@ -166,7 +166,7 @@ with default configuration for build & watch scripts.
 After running this command, you will see the instructions on how to add this plugin to your Sanity Studio in the terminal.
 
 `npm publish` - there is pre-publish script that prepares the plugin for publishing, you don't need to build it manually.
-Please run `npm publish --dry-run` to make sure that everything is ok before publishing.
+Please run `npm publish --dry-run` to make sure that everything is ok before publishing. When publishing, make sure to set `access=public`.
 
 See [Testing a plugin in Sanity Studio](https://github.com/sanity-io/plugin-kit#testing-a-plugin-in-sanity-studio)
 for additional information.
