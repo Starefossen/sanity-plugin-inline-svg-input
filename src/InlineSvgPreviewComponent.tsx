@@ -1,4 +1,4 @@
-import DOMPurify from "isomorphic-dompurify"
+import DOMPurify from 'isomorphic-dompurify'
 import styled from 'styled-components'
 import { CSSProperties } from 'react'
 
