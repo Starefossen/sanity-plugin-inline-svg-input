@@ -171,6 +171,20 @@ Please run `npm publish --dry-run` to make sure that everything is ok before pub
 See [Testing a plugin in Sanity Studio](https://github.com/sanity-io/plugin-kit#testing-a-plugin-in-sanity-studio)
 for additional information.
 
+### Setting up NPM_TOKEN secret
+
+To publish the package to the npm registry using GitHub Actions, you need to set up the `NPM_TOKEN` secret in your GitHub repository settings. Follow these steps:
+
+1. Go to your repository on GitHub.
+2. Click on the `Settings` tab.
+3. In the left sidebar, click on `Secrets` and then `Actions`.
+4. Click the `New repository secret` button.
+5. In the `Name` field, enter `NPM_TOKEN`.
+6. In the `Value` field, enter your npm token. You can generate a new token from your npm account settings.
+7. Click the `Add secret` button.
+
+Once the `NPM_TOKEN` secret is set up, the GitHub Actions workflow will be able to use it to authenticate and publish the package to the npm registry.
+
 ## Credits
 
 This project was created at **FocusReactive** - the [Sanity Partner Agency](https://www.sanity.io/agency-partners/focusreactive). We specialize in helping clients beat the competition and accelerate business growth. With a deep expertise in headless CMS, NextJS, and eCommerce, we deliver cutting-edge solutions that prioritize your business goals.
