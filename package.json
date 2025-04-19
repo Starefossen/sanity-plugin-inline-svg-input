@@ -15,11 +15,11 @@
   ],
   "homepage": "https://www.sanity.io/plugins/sanity-plugin-inline-svg-input",
   "bugs": {
-    "url": "https://github.com/focusreactive/sanity-plugin-inline-svg-input/issues"
+    "url": "https://github.com/starefossen/sanity-plugin-inline-svg-input/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/focusreactive/sanity-plugin-inline-svg-input.git"
+    "url": "git+ssh://git@github.com/starefossen/sanity-plugin-inline-svg-input.git"
   },
   "license": "MIT",
   "author": "Eugene Boruhov <eugene@focusreactive.com>",
