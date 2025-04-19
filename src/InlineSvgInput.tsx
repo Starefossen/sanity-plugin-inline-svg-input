@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useRef } from 'react'
 import { set, StringInputProps, unset } from 'sanity'
 import styled, { css } from 'styled-components'
-import DOMPurify from 'dompurify'
+import DOMPurify from "isomorphic-dompurify"
 import { ThemeProvider, usePrefersDark, useTheme } from '@sanity/ui'
 
 const Container = styled.div`
