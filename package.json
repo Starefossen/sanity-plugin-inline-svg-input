@@ -1,6 +1,6 @@
 {
   "name": "@starefossen/sanity-plugin-inline-svg-input",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Sanity plugin to upload and preview inline SVGs",
   "keywords": [
     "sanity",
