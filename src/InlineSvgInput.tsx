@@ -132,7 +132,7 @@ export const InlineSvgInput = ({ id, value, schemaType, onChange, focused }: Str
   }, [focused])
 
   const clickedRemoveSvg = () => {
-    // eslint-disable-next-line no-alert
+     
     if (confirm('Are you sure you want to remove the SVG?')) {
       onChange(unset())
       if (inputRef.current) inputRef.current.value = ''
